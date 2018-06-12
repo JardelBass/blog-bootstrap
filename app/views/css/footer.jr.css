@@ -1,0 +1,95 @@
+/* CSS Document */
+.foorter-cot-jr{
+	background-color: #272727; 
+}
+
+.footer-dados-jr div{
+    padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer-dados-jr div div div{
+    margin-top: 30px;
+    border: rgb(128, 128, 128) solid 2px;
+    text-align: center;
+}
+
+.footer-dados-jr div div:hover{
+	border-color: #7DA743;
+    cursor: pointer;
+}
+
+.footer-dados-jr div div h3{
+    font-size: 25px;
+    color: #7DA743;
+}
+
+.footer-dados-jr div div p{
+    font-size: 20px;
+    margin-top: 10px;
+	color: #FFFFFF;
+}
+
+.footer-form-jr{
+	margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-form-jr{
+	margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-form-div1-jr input{
+	width: 100%;
+    color: rgb(179, 179, 179);
+    padding: 9px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(39, 39, 39);
+    border:rgb(128, 128, 128) solid 2px;
+}
+
+.footer-form-div2-jr textarea{
+    width: 100%;
+    color: rgb(179, 179, 179);
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(39, 39, 39);
+    border:rgb(128, 128, 128) solid 2px;
+}
+
+.footer-form-div2-jr input{
+    width: 100%;
+    padding: 13px 10px;
+    margin-top: 5px;
+    background-color: #7DA743;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+
+.footer-pe-jr {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-pe-jr h2{
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 990px) {
+	.footer-dados-jr div div h3{
+		font-size: 20px;
+		color: #7DA743;
+	}
+
+	.footer-dados-jr div div p{
+		font-size: 17px;
+		margin-top: 10px;
+		color: #FFFFFF;
+	}
+}

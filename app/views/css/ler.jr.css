@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.post-ler-jr img{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.post-ler-jr p{
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: justify;
+	font-family: "Roboto";
+}
+
+@media screen and (max-width: 770px) {
+   .post-ler-jr img{
+		width: 100%;
+	}
+	
+}
+

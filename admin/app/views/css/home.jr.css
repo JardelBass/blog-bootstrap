@@ -1,0 +1,274 @@
+/* CSS Document */
+/* CSS Document */
+@font-face {
+     font-family: Anton-Regular;
+     src: url('../font/Anton-Regular.ttf');
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url('../font/Roboto-Light.ttf');
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	font-family: "Roboto";
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+li{
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 10px 15px;
+}
+
+th, td{
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+th{
+	background-color: #E8FF6B;
+	color: #000000;
+	padding: 5px;
+}
+
+td{
+	border-bottom: 1px solid #FFFFFF;
+	padding: 5px;
+}
+
+body{
+	background-color: #201E29;
+}
+
+.nav-jr{
+	margin-top: -20px;
+}
+
+.nav-jr h1{
+	color: #FFFFFF;
+	background-color: #7DA743;
+	width: 100%;
+	padding: 19px 10px;
+	font-size: 20px;
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.nav-jr nav{
+	margin-top: -5px;
+}
+
+.list-cat{
+	background-color: #1C1B24;
+	color: #FFFFFF;
+}
+
+.list-sair{
+	background-color: #FB5154;
+}
+
+.painel-jr h1{
+	color: #FFFFFF;
+	border-bottom: 2px solid #7DA743;
+	border-left: 30px solid #7DA743;
+	padding-left: 20px;
+}
+
+.msm-jr, .post-jr, .user-jr{
+	border: 2px solid #FFFFFF;
+	margin-top: 30px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.msm-jr h2, .post-jr h2, .user-jr h2{
+	font-size: 60px;
+}
+
+.msm-jr p, .post-jr p, .user-jr p{
+	font-size: 20px;
+}
+
+.msm-jr a, .post-jr a, .user-jr a{
+	color: #000000;
+}
+
+.msm-jr{
+	background-color: #75C8F7;
+}
+
+.post-jr{
+	background-color: #DFE852;
+}
+
+.user-jr{
+	background-color: #CC69FF;
+}
+
+.edita{
+	background-color: #67F8A9;
+	text-align: center;
+}
+
+.edita a{
+	color: #000000;
+}
+
+.deleta{
+	background-color: #FC5457;
+	text-align: center;
+}
+
+.user-form-jr label{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: "Roboto";
+	padding: 20px 0px 10px 0px;
+}
+
+.user-form-jr input{
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: "Roboto";
+	padding: 10px;
+	background-color: #201E29;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.user-form-jr select{
+
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: "Roboto";
+	padding: 10px;
+	background-color: #201E29;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.butao-user-jr {
+	margin-top: 20px;
+}
+
+.butao-user-jr input{
+	width: 48%;
+	margin-top: 20px;
+}
+
+#usersalvar{
+	background-color: #7DA743;
+}
+
+#botao-user-cancelar{
+	background-color: #FB5154;
+	margin-left: 25px;
+}
+
+#usersalvar, #botao-user-cancelar{
+	border: 0px;
+}
+
+.cadastro-jr label{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: "Roboto";
+	padding: 20px 0px 10px 0px;
+}
+
+.cadastro-jr input{
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: "Roboto";
+	padding: 10px;
+	background-color: #201E29;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.cadastro-jr select{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: "Roboto";
+	padding: 10px;
+	background-color: #201E29;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.cadastro-jr textarea{
+	color: #FFFFFF;
+	background-color: #201E29;
+	font-size: 20px;
+	font-family: "Roboto";
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.butao-cadasto-jr input{
+	width: 48%;
+	margin-top: 20px;
+}
+
+#cadssalvar{
+	background-color: #7DA743;
+}
+
+#botao-cads-cancelar{
+	background-color: #FB5154;
+	margin-left: 25px;
+}
+
+#cadssalvar, #botao-cads-cancelar{
+	border: 0px;
+}
+
+#imagens-cads{
+	font-size: 18px;
+}
+
+#ler-volta, #ler-deleta{
+	background-color: #E8FF6B;
+	font-size: 18px;
+	float: right;
+	padding: 10px 20px;
+	color: #000000;
+}
+
+#ler-deleta{
+	background-color: #FC5457;
+	color: #FFFFFF;
+}
+
+.ler-msm{
+	color: #FFFFFF;
+}
+
+.ler-msm h3{
+	font-size: 25px;
+}
+
+.ler-msm p{
+	font-size: 18px;
+}
+
+#msm-list-txt{
+	text-align: justify;
+}

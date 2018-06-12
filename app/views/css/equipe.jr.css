@@ -1,0 +1,43 @@
+/* CSS Document */
+.equipe-jr{
+	padding-top: 100px;
+}
+
+.equipe-img-jr{
+	padding-top: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.equipe-img-jr img{
+	border: 5px solid #FFFFFF;
+    border-radius: 150px;
+}
+
+.equipe-img-jr p{
+	margin-top: 20px;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+.equipe-cont-sobre-jr{
+	padding-top: 30px;	
+}
+
+.equipe-sobre-jr h3{
+	border-left: 20px solid #7DA743;
+    padding-left: 10px;
+    font-size: 30px;
+	color: #FFFFFF;
+}
+
+.equipe-sobre-texto-jr{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.equipe-sobre-texto-jr p{
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: justify;
+}
+	
